@@ -82,6 +82,25 @@ section {
 .hebergements {
     width: 65%;
 }
+.hebergements-title {
+    justify-content: space-between;
+}
+.hebergements img{
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.hebergements .card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    width: 20em;
+}
 
 /****** Populaires ***********/
 .populaires {
@@ -92,9 +111,10 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+}/* option A virer populaires-cards pour appliquer à tout ce qui est une card + ajouter 2 ou 3 options pour les différences et éviter de surcharger, 
+    option B copier et décliner pour adapter a hebergement card et activity card */
 
-.populaires-cards .card {
+.populaires-cards .card { 
     display: flex;
     margin-top: 33px;
 }
