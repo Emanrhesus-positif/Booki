@@ -57,11 +57,24 @@ body {
     color: var(--main-bg-color)
 }
 
-section {
+footer section{
     background-color: var(--main-bg-color);
-    border-radius: 20px;
+
     padding: 30px;
     box-sizing: border-box;
+}
+
+/**** Header ****/
+header {
+    display:flex;
+    flex-direction: row;
+
+}
+header img{
+    height: 1.5em;
+    width: 5em;
+    justify-self: flex-start;
+    
 }
 
 
@@ -71,12 +84,12 @@ section {
     justify-content: space-between;
 }
 
-/* .hebergements-and-populaires section {
+.hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
-} */
+}
 
 /****** Hebergements ***********/
 .hebergements {
