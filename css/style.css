@@ -57,18 +57,26 @@ body {
     color: var(--main-bg-color)
 }
 
+section {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
 }
 
-.hebergements-and-populaires section {
+/* .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
-}
+} */
 
 /****** Hebergements ***********/
 .hebergements {
@@ -119,8 +127,19 @@ body {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+/****** Activities ******/
 
-
+/****** Footer *******/
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    /*box-sizing:border-box;*/
+    /*box les items pour l'espacement*/
+}
+.footer-content {
+    margin-right: 20%;
+    /* modifier pour avoir l'adaptation via le parent*/
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
