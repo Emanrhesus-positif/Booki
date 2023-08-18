@@ -85,7 +85,9 @@ header a{
     color: black;
 }
 header a:hover{
-    text-decoration:overline;
+    /*text-decoration:overline;*/
+    border-top: 2px solid #0065FC;
+    padding-top: 10px;
     color:#0065FC;
 }
 
@@ -105,12 +107,12 @@ header a:hover{
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
-    padding: 30px;
     box-sizing: border-box;
 }
 
@@ -118,33 +120,35 @@ header a:hover{
 .hebergements {
     width: 65%;
 }
-.hebergements-title {
-    justify-content: space-between;
+.hebergements a{
+    color:black;
+    text-decoration: none;
 }
 .hebergements img{
     height: 100px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.hebergements-cards {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-.hebergement-cards a{
-    color:black;
-    text-decoration: none;
-}
 .hebergements .card{
     display: flex;
     flex-direction: column;
-    margin-top: 33px;
-    width: 20em;
+    margin: 10px;
+    width: 18em;
 }
+.hebergements-title {
+    justify-content: space-between;
+}
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content:center;
+}
+.hebergements
 
 /****** Populaires ***********/
 .populaires {
-    width: 32%;
+    width: 20%;
 }
 
 .populaires-title {
@@ -153,7 +157,9 @@ header a:hover{
     align-items: center;
 }/* option A virer populaires-cards pour appliquer à tout ce qui est une card + ajouter 2 ou 3 options pour les différences et éviter de surcharger, 
     option B copier et décliner pour adapter a hebergement card et activity card */
-
+.populaires-cards {
+    padding: 20px;
+}
 .populaires-cards .card { 
     display: flex;
     margin-top: 33px;
