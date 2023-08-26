@@ -131,13 +131,24 @@ header a:hover{
 .filters-container {
     display: flex;
     flex-direction: row;
+    justify-items:flex-start;
     margin-top: 2em;
-    
+}
+.filters-container i{
+    color: #0065FC;
+}
+.filters-container h2{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;;
 }
 .filters-container button{
     border-radius: 3rem;
     border-color: #DEEBFF;
     padding: 1rem;
+    font-weight: bold;
+    background-color:white;
+    border-style: solid;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -169,7 +180,7 @@ header a:hover{
 .hebergements .card{
     display: flex;
     flex-direction: column;
-    width: 18em;
+    width: 15rem;
 }
 .hebergements-title {
     padding : 1rem;
@@ -180,7 +191,9 @@ header a:hover{
     justify-content: space-evenly;
     gap: 1rem;
 }
-.hebergements
+.hebergements a{
+    padding:1rem;
+}
 
 /****** Populaires ***********/
 .populaires {
@@ -235,6 +248,44 @@ header a:hover{
     margin-bottom: 5px;
 }
 /****** Activities ******/
+.activities-container {
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+.activities-cards {
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    justify-content: space-evenly;
+    width: 100%;
+    box-sizing: border-box;
+    gap:1rem;
+}
+.activities-cards .card { 
+    display: flex;
+    padding:0;
+    width:25%;
+}
+.activities-cards .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.activities-cards img {
+    height: 400px;
+    min-width: ;
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activities-cards .card-text{
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
 
 /****** Footer *******/
 .footer-links {
