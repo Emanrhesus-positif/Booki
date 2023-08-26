@@ -69,8 +69,8 @@ header {
 
 }
 header img{
-    height: 1.5em;
-    width: 5em;
+    height: 1.5rem;
+    width: 5rem;
     justify-self: flex-start;
     
 }
@@ -89,6 +89,12 @@ header a:hover{
     color:#0065FC;
 }
 
+.blue-back {
+    float: left;
+    width:10px;
+    height:10px;
+    
+}
 
 /**** Search-container ****/
 .search-container .search-form{
@@ -275,7 +281,7 @@ header a:hover{
 
 .activities-cards img {
     height: 400px;
-    min-width: ;
+
     max-width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -291,12 +297,11 @@ header a:hover{
 .footer-links {
     display: flex;
     flex-direction: row;
-    /*box-sizing:border-box;*/
-    /*box les items pour l'espacement*/
+    justify-content: space-between;
+
 }
 .footer-content {
-    margin-right: 20%;
-    /* modifier pour avoir l'adaptation via le parent*/
+    margin-right:10rem;
 }
 
 
@@ -339,5 +344,27 @@ header a:hover{
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    header{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin:auto;
+    }
+
+    header .links{
+        margin:auto;
+    }
+    header a:hover{
+        border-top: 0;
+        padding-top: 0;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 10px;
+        color:#0065FC;
+    }
+    .main-container{
+        padding:1rem;
+    }
+
+    
 }
