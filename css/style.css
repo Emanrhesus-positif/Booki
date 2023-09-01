@@ -287,6 +287,7 @@ header a:hover{
     display: flex;
     padding:0;
     width:25%;
+    overflow:hidden;
 }
 .activities-cards .card-content {
     display: flex;
@@ -296,6 +297,7 @@ header a:hover{
 }
 
 .activities-cards img {
+
     height: 400px;
     width: 100%;
     min-width: 323px;
@@ -437,6 +439,9 @@ header a:hover{
         height:1.2rem;
         width:3.9rem;
     }
+    header{
+        margin-bottom: 20px;
+    }
 
     header .links{
         width:100%;
@@ -474,6 +479,9 @@ header a:hover{
         overflow:hidden;
         color:#0065FC;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    }
+    .search-btn i{
+        visibility: visible;
     }
 
     /****filters****/
