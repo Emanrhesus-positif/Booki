@@ -568,7 +568,10 @@ header a:hover{
     .footer-links {
         grid-template-columns: none;
         grid-template-rows: 1fr 1fr 1fr;
-        justify-items: space-evenly;
+        justify-content: space-evenly;
+    }
+    .footer-content{
+        margin:0;
     }
     .footer-links h3 , .footer-links p{
         font-size: 1rem;
