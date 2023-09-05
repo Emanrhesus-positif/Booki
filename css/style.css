@@ -338,6 +338,8 @@ footer section{
         padding:0 25px;
         padding-top: 1rem;
     }
+
+    /******* Header ********/
     header{
         margin-bottom: 3rem;
     }
@@ -346,6 +348,7 @@ footer section{
         height:0.9rem;
     }
 
+    /********* Filters *********/
     .filters-container{
         flex-wrap: wrap;
         margin-top:1rem;
@@ -357,6 +360,8 @@ footer section{
         grid-template-rows: repeat(1, 1fr); 
         gap:1rem; 
     }
+
+    /*********** Hebergement and populaires *********/
     .hebergements-and-populaires {
         flex-direction: column;
         gap:1.5rem;
@@ -405,6 +410,7 @@ footer section{
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
+    /********** Footer **********/
     .footer-links{
         padding: 0.8rem;
     }
