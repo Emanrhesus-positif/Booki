@@ -54,11 +54,6 @@ body {
 .neutral-star {
     color: var(--main-bg-color)
 }
-footer section{
-    background-color: var(--main-bg-color);
-    padding: 30px;
-    box-sizing: border-box;
-}
 
 /**** Header ****/
 header {
@@ -321,6 +316,11 @@ header a:hover{
 }
 
 /****** Footer *******/
+footer section{
+    background-color: var(--main-bg-color);
+    padding: 30px;
+    box-sizing: border-box;
+}
 .footer-links {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -451,7 +451,6 @@ header a:hover{
         padding-top: 0;
         border-bottom: 2px solid #0065FC;
         padding-bottom: 10px;
-        /* border-color:#0065FC; */
     }
     header a{
         text-align: center;
