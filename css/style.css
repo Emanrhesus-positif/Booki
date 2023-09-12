@@ -412,8 +412,6 @@ footer section{
         max-height: 15rem;
     }
     .activities-cards img {
-        min-width:174px;
-        max-width: fit-content;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         max-height:10rem;
@@ -566,9 +564,6 @@ footer section{
     }
     .activities-cards .card-content{
         height:10rem;
-    }
-    .Activities-cards img{
-        width:
     }
     .activities-cards .card{
         flex-direction: column;
