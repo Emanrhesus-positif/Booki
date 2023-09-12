@@ -404,7 +404,6 @@ footer section{
         max-height: 15rem;
     }
     .activities-cards img {
-        height: 10rem;
         min-width:174px;
         max-width: fit-content;
         border-top-left-radius: 20px;
