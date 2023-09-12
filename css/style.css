@@ -119,8 +119,12 @@ header a:hover{
     color:#DEEBFF;
     font-weight: bold;
 }
+.location i{
+    color:black;
+}
 .search-btn i{
     display:none;
+    color:#F2F2F2;
 }
 
 /***** Filters ****/
@@ -149,6 +153,9 @@ header a:hover{
 .filters-container button:hover {
     background-color:#DEEBFF;
 }
+.filters-form i{
+    color:#0065FC;
+}
 .logement-text {
     display:flex;
     flex-direction:row;
@@ -157,6 +164,7 @@ header a:hover{
     padding-bottom:1rem;
 }
 .logement-text i{
+    color:#FFFFFF;
     background-color: #0065FC;
     border-radius: 50%;
     border-width: 1px;
@@ -408,6 +416,10 @@ footer section{
         max-width: fit-content;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+        max-height:10rem;
+    }
+    .activities-cards .card-content{
+        overflow: hidden;
     }
     /********** Footer **********/
     .footer-links{
@@ -555,6 +567,9 @@ footer section{
     .activities-cards .card-content{
         height:10rem;
     }
+    .Activities-cards img{
+        width:
+    }
     .activities-cards .card{
         flex-direction: column;
         width: 90%;
@@ -563,6 +578,7 @@ footer section{
         margin:auto;
         margin-left: 0;
     }
+    .activities-cards 
 
     /****footer***/
     footer{
